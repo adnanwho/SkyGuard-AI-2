@@ -1,0 +1,11 @@
+# NOTE: this file is documentation only.
+# It is NOT loaded by any code at runtime. Actual runtime configuration
+# lives in src/skyguard/config.py as frozen dataclasses (DEFAULT_CONFIG).
+# Keep this file in sync with that module manually when values change.
+
+ensemble:
+  models: [isolation_forest, ecod, copod, hbos]
+  random_state: 42
+  contamination: 0.02
+optional:
+  temporal_model: lstm_autoencoder

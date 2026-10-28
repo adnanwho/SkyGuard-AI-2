@@ -1,0 +1,9 @@
+# NOTE: this file is documentation only.
+# It is NOT loaded by any code at runtime. Actual runtime configuration
+# lives in src/skyguard/config.py as frozen dataclasses (DEFAULT_CONFIG).
+# Keep this file in sync with that module manually when values change.
+
+features:
+  raw: [temperature, pressure, humidity]
+  derived: [dew_point, temperature_deviation, humidity_deviation, pressure_deviation]
+  temporal: [temperature_rate, pressure_rate, humidity_rate, persistence]

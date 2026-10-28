@@ -1,0 +1,9 @@
+# Normalize line endings so the working tree stops showing every file
+# as modified purely due to CRLF/LF differences (see docs/repository_audit.md, §12).
+* text=auto eol=lf
+
+*.pkl binary
+*.psv text eol=lf
+*.csv text eol=lf
+*.tiff binary
+*.docx binary

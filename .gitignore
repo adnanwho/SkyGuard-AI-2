@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Test/type/lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+coverage/
+
+# Editor/tool scratch
+.kilo/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local/generated artifacts
+.env
+data/interim/*
+data/evaluation/*
+models/trained/*
+models/metadata/*
+outputs/exports/*
+outputs/evaluation/*
+outputs/reports/*
+
+# Keep directory documentation visible
+!.gitkeep
+!**/README.md

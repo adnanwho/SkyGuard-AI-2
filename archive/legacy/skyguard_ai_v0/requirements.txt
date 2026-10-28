@@ -1,0 +1,14 @@
+numpy
+pandas
+pydantic
+pytest
+
+# Planned MVP dependencies for later layers
+scikit-learn
+joblib
+streamlit
+plotly
+
+# Optional/advanced dependencies; only use when implemented and tested
+shap
+tensorflow
